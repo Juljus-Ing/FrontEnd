@@ -85,28 +85,3 @@
   border: 0;
   background-color: #e8e8e8;
 }
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.subtitleRecu {
-  font-size: 0.725rem;
-  max-width: 80%;
-  text-align: center;
-  line-height: 1.1rem;
-  color: black;
-  padding-left: 10px;
-}
-
-.nueva_cuenta_btn {
-  background-color: white;
-  border-color: black;
-  border-radius: 4px;
-  width: 280px;
-  height: 35px;
-  color: black;
-  cursor: pointer;
-  margin-top: 40px;
-}
