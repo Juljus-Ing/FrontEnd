@@ -58,6 +58,10 @@ header {
   margin: 0 10px 0;
 }
 
+.iconos{
+  display: flex;
+}
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
