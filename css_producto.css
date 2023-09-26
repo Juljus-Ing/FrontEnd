@@ -1,0 +1,185 @@
+header {
+    background-color: #ef9a53;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 80px 20px;
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .logo img {
+    max-width: 100px;
+    padding: 10px;
+  }
+  
+  .barra-busqueda input {
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 600px;
+    height: 35px;
+    border-color: #000;
+    border-style: solid;
+  }
+  
+  .barra-busqueda button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .iconos a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .iconos img {
+    max-width: 30px;
+    margin: 0 10px 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 10px;
+  }
+  
+  .carousel-button {
+    height: 44px;
+    width: 44px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #852999;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+    text-align: center;
+    border: none;
+  }
+  
+  .carousel-button:hover {
+    background-color: #c539b4;
+  }
+  
+  #prev-btn {
+    margin-right: 1100px;
+  }
+  
+  #next-btn {
+    margin-left: 1100px;
+  }
+  
+  .publicidad{
+    margin: 40px 0 20px;
+  }
+  
+  .publicidad img{
+    width: 1066px;
+    height: 300px;
+  }
+  
+  footer {
+    background-color: #f5d5ae;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px 0 30px; 
+  }
+  
+  footer .container {
+    max-width: 1200px;
+    display: flex;
+  }
+  
+  footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .col-md-3 {
+    flex: 1;
+    margin: 0 110px 0;
+  }
+  
+  
+  footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer button{
+    background-color: #c539b4;
+    border-color: #c539b4;
+    border-radius: 4px;
+    width: 138px;
+    height: 35px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }

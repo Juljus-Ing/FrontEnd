@@ -1,0 +1,33 @@
+[
+    {
+      "imagen": "images/croissant.jpg",
+      "nombre": "Croissant Bocadillo",
+      "precio": 5700
+    },
+    {
+      "imagen": "images/multicereal.jpg",
+      "nombre": "Pan Multicereal",
+      "precio": 5700
+    },
+    {
+      "imagen": "images/tostadas.jpg",
+      "nombre": "Tostadas Linaza",
+      "precio": 4500
+    },
+    {
+      "imagen": "images/calados.jpg",
+      "nombre": "Calados Integrales",
+      "precio": 4500
+    },
+    {
+      "imagen": "images/palitos.jpg",
+      "nombre": "Palitos Ajonjolí",
+      "precio": 3400
+    },
+    {
+      "imagen": "images/galleta_almendra.jpg",
+      "nombre": "Galletas Almendra",
+      "precio": 2400
+    }
+  ]
+  
