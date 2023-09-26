@@ -58,6 +58,10 @@ header {
   margin: 0 10px 0;
 }
 
+.iconos{
+  display: flex;
+}
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -117,6 +121,9 @@ body {
 
 .publicidad {
   margin: 40px 0 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .publicidad img {

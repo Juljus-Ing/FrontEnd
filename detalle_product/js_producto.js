@@ -6,7 +6,7 @@ let currentIndex = 0;
 const products = [];
 
 // Cargar productos desde el archivo JSON (reemplaza 'productos.json' con tu archivo JSON)
-fetch('pp.json')
+fetch('productos.json')
     .then(response => response.json())
     .then(data => {
         products.push(...data);
