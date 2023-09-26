@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css_producto.css" />
-    <script src="js_producto.js" defer></script>
+    <link rel="stylesheet" href="home.css" />
+    <script src="home.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -25,7 +25,7 @@
     <div class="menu">
       <div class="logo">
         <img src="images/icon/pan.png" alt="Logo de la tienda" />
-        <h2>LOS MEROS</h2>
+        <h2>Los meros</h2>
       </div>
       <div class="barra-busqueda">
         <input type="text" placeholder="Buscar..." />
@@ -44,6 +44,29 @@
       </div>
     </div>
 
+    <div class="slidershow middle">
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked />
+        <input type="radio" name="r" id="r2" />
+        <input type="radio" name="r" id="r3" />
+        <div class="slide s1">
+          <img src="images/banner-2.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/banner-3.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/banner-3.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+      </div>
+    </div>
+
     <div class="carousel-container">
       <button id="prev-btn" class="carousel-button"><b>&lt</b></button>
 
@@ -54,7 +77,7 @@
       <button id="next-btn" class="carousel-button"><b>&gt</b></button>
     </div>
 
-    <script src="js_producto.js"></script>
+    <script src="pp.js"></script>
 
     <div class="publicidad">
       <img src="images/banner-publi.png" alt="" />
