@@ -49,7 +49,7 @@
     <div class="separator">
       <hr class="line" />
     </div>
-    <form class="form_container">
+    <form id="form_container" class="form_container">
       <div class="title_container">
         <p class="title">Inicia Sesión</p>
         <span class="subtitle"
@@ -83,11 +83,10 @@
         </svg>
         <input
           placeholder="ejemplo@email.com"
-          title="Input title"
-          name="input-name"
+          id="email"
+          name="email"
           type="email"
           class="input_field"
-          id="email_field"
         />
       </div>
       <div class="input_container">
@@ -119,12 +118,11 @@
           ></path>
         </svg>
         <input
-          placeholder="Contraseña"
-          title="Input title"
-          name="input-name"
+          placeholder="contraseña"
+          id="clave"
+          name="clave"
           type="password"
           class="input_field"
-          id="password_field"
         />
       </div>
       <button title="Iniciar Sesión" type="submit" class="sign-in_btn">
