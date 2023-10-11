@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   consultar.addEventListener("click", () => {});
 
   editar.addEventListener("click", () => {
-    fetch("/usuarios.json")
+    fetch("/home.json")
       .then((response) => response.json())
       .then((data) => {
         // Encontrar el objeto que deseas actualizar (por ejemplo, por ID)
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
           objetoAActualizar.precio = precio_prod;
 
           // Guardar los datos actualizados en el JSON
-          fetch("/usuarios.json", {
+          fetch("/home.json", {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   agregar.addEventListener("click", () => {
     // Obtener los datos actuales del JSON
-    fetch("/usuarios.json")
+    fetch("/home.json")
       .then((response) => response.json())
       .then((data) => {
         // Crear un nuevo objeto
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data.push(nuevoObjeto);
 
         // Guardar los datos actualizados en el JSON
-        fetch("/usuarios.json", {
+        fetch("/home.json", {
           method: "PUT",
           body: JSON.stringify(data),
           headers: {
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   eliminar.addEventListener("click", () => {
-    fetch("/usuarios.json")
+    fetch("/home.json")
       .then((response) => response.json())
       .then((data) => {
         // Encontrar el índice del objeto que deseas eliminar (por ejemplo, por ID)
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
           data.splice(indiceAEliminar, 1);
 
           // Guardar los datos actualizados en el JSON
-          fetch("/usuarios.json", {
+          fetch("/home.json", {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {
